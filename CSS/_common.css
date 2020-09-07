@@ -1,0 +1,99 @@
+@import url('./_variables.css');
+
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url('../Fonts/Montserrat-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Montserrat-Semibold';
+    src: url('../Fonts/Montserrat-Semibold.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    color: var(--color-main);
+    font-family: 'Montserrat-Regular';
+}
+
+main {
+    overflow-x: hidden;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    outline: none;
+    border: none;
+}
+
+input {
+    border: none;
+    outline: none;
+}
+
+/*common-classes*/
+
+.section-wrapper {
+        max-width: 1110px;
+        margin: 0 auto;
+        padding: 0 25px;
+}
+
+.text-semibold-main-heading {
+    font-size: var(--text-main-headind);
+    font-family: 'Montserrat-Semibold';
+}
+
+.text-semibold-xxlarge {
+    font-size: var(--text-xxlarge);
+    font-family: 'Montserrat-Semibold';
+}
+
+.text-semibold-xlarge {
+    font-size: var(--text-xlarge);
+    font-family: 'Montserrat-Semibold';
+}
+
+.text-semibold-large {
+    font-size: var(--text-large);
+    font-family: 'Montserrat-Semibold'
+}
+
+.text-semibold-medium {
+    font-size: var(--text-medium);
+    font-family: 'Montserrat-Semibold'
+}
+
+.text-semibold-small {
+    font-size: var(--text-small);
+    font-family: 'Montserrat-Semibold'
+}
+
+.text-semibold-xsmall {
+    font-size: var(--text-xsmall);
+    font-family: 'Montserrat-Semibold'
+}
+
+
+.text-regular-medium {
+    font-size: var(--text-medium);
+    font-family: 'Montserrat-Regular'
+}
+
+.text-regular-small {
+    font-size: var(--text-small);
+    font-family: 'Montserrat-Regular
+}
+
+.text-regular-xsmall {
+    font-size: var(--text-xsmall);
+    font-family: 'Montserrat-Regular
+}

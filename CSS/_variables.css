@@ -1,0 +1,26 @@
+:root {
+    --color-white: #ffffff;
+    --color-yellow: #ffcc01;
+    --color-blue: #96bece;
+    --color-pale-blue: #8290a2;
+    --color-grey-blue: #919eb1;
+    --color-main: #1f373d;
+    --color-grey: #96a3b5;
+    --color-medium-grey: #cdccce;
+    --color-light-grey: #F6F5F4;
+
+
+    --text-main-headind: 60px;
+    --text-xxlarge: 40px;
+    --text-xlarge: 25px;
+    --text-large: 18px;
+    --text-medium: 15px;
+    --text-small: 14px;
+    --text-xsmall: 13px;
+
+    --default-transition: 0.3s;
+
+    --default-border-radius: 5px;
+}
+
+
